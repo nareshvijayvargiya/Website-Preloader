@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #060606;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background: #fff;
+    width: 600px;
+    height: 55px;
+    display: flex;
+}
+
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+form button{
+    background: tomato;
+    padding: 10px 50px;
+    color: #fff;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+form .fa-magnifying-glass{
+    align-self: center;
+    padding: 10px 20px;
+    color: #777;
+}
+
+#preloader{
+    background: blue url(/circle-loader-gif-2.gif) no-repeat center center;
+    background-size: 15%;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+}
